@@ -5,11 +5,15 @@ bacterial collection. I chose to consider high quality genomes, by which I mean
 that genomes have: (a) N50>5000, (b) \#contigs<2000, (c) compleness >= 90%, and
 (d) contamination <= 5%. Those rules are taken from the 661k paper itself.
 
-⚠️ *WARNING.* Receipes assume [[https://github.com/ag-computational-bio/bakrep-cli][BakRep-cli]] is installed (and in your $PATH).
+⚠️ *WARNING.*
+- Receipes assume [[https://github.com/ag-computational-bio/bakrep-cli][BakRep-cli]] is installed (and in your $PATH).
+- You'll need to decompress [[file:661k_HQ.tsv.zip]] first.
+
+-----
 
 *** 🗄️ Organisation
 
-The file [[file:661k_HQ.tsv]] contains the metadata of HQ genomes for 661k
+The fil =661k_HQ.tsv= contains the metadata of HQ genomes for 661k
 collection. It was obtained using the BakRep website interface.
 
 The other folders contain at least the following elements: (a) receipe.sh that
