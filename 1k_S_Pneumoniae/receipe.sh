@@ -8,8 +8,8 @@
 
 
 
-NAME="1k_E_Coli.tsv"
-grep "Escherichia coli" ../661k_HQ.tsv | head -1000 > $NAME
+NAME="1k_S_Pneumoniae.tsv"
+grep "Streptococcus pneumoniae" ../661k_HQ.tsv | head -1000 > $NAME
 
 
 
